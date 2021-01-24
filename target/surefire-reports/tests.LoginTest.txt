@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: tests.LoginTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 74.541 s <<< FAILURE! - in tests.LoginTest
+loginwithwrongPassword(tests.LoginTest)  Time elapsed: 6.702 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Password was incorrect.]> but was:<[]>
+	at tests.LoginTest.loginwithwrongPassword(LoginTest.java:43)
+
